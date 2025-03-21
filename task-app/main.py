@@ -6,7 +6,7 @@ from tkinter import PhotoImage
 # FUNÇÕES
 def adicionar_tarefa():
     """
-    -->Input para adição de tarefas.
+    -->Trata a entrada e atualização de tarefas.
     """
     global frame_em_edicao
     tarefa = entrada_tarefa.get().strip()
@@ -23,7 +23,7 @@ def adicionar_tarefa():
 
 def adicionar_item_tarefa(tarefa):
     """
-    -->Adiciona itens a lista de tarefas.
+    -->Cria os widgets para cada tarefa.
     """
     frame_tarefa = tk.Frame(canvas_interior, bg='white', bd=1, relief=tk.SOLID)
     label_tarefa = tk.Label(frame_tarefa, text=tarefa, font=('Garamond', 16), bg='white', width=25, height=2, anchor='w')
@@ -46,7 +46,7 @@ def adicionar_item_tarefa(tarefa):
 
 def preparar_edicao(frame_tarefa, label_tarefa):
     """
-    -->Prepara possível edição de tarefas.
+    -->Prepara interface para edição de tarefas.
     """
     global frame_em_edicao
     frame_em_edicao = frame_tarefa
@@ -66,7 +66,7 @@ def atualizar_tarefa(nova_tarefa):
 
 def deletar_tarefa(frame_tarefa):
     """
-    -->Deleta Tarefas
+    -->Deleta Tarefas.
     """
     frame_tarefa.destroy()
     canvas_interior.update_idletasks()
