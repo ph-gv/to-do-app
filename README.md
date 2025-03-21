@@ -1,18 +1,17 @@
 # To-Do App
-🔍 **Descrição (Description)**
- - App Desktop de Tarefas construído com Python e Tkinter. 
- - Desktop Tasks App built with Python and Tkinter.
-✨ **Funcionalidades (Features)**
- - Criar Tarefas   |  Create Tasks 
- - Editar Tarefas  |  Edit Tasks
- - Excluir Tarefas |  Delete Tasks
- - Marcar Tarefas Concluídas |  Toggle Task Completion
-🛠️ **Tecnologias Utilizadas (Technology)**
- - Python 3.12.8
-📚 **Bibliotecas (Library)**
- - Tkinter
-🏗️ **Estrutura do Código (Code Structure)**
  **PT-BR**
+🔍 **Descrição**
+ - App Desktop de Tarefas construído com Python e Tkinter. 
+✨ **Funcionalidades**
+ - Criar Tarefas    
+ - Editar Tarefas  
+ - Excluir Tarefas 
+ - Marcar Tarefas Concluídas
+🛠️ **Tecnologias Utilizadas**
+ - Python 3.12.8
+📚 **Bibliotecas**
+ - Tkinter
+🏗️ **Estrutura do Código**
  Importação de Bibliotecas:
  - Utiliza módulos do Tkinter (tk, ttk, font, messagebox, PhotoImage) para construir a interface.
 
@@ -31,7 +30,19 @@
  - Botões para adicionar, editar e deletar tarefas.
  - Carregamento de ícones para os botões de editar e deletar.
 
- **EN**
+ **EN-US**
+🔍 **Description**
+ - Desktop Tasks App built with Python and Tkinter.
+✨ **Features**
+ - Create Tasks 
+ - Edit Tasks
+ - Delete Tasks
+ - Toggle Task Completion
+🛠️ **Technology**
+ - Python 3.12.8
+📚 **Library**
+ - Tkinter
+🏗️ **Code Structure**
   Library import:
  - Uses Tkinter modules (tk, ttk, font, messagebox, PhotoImage) to build the interface.
 
