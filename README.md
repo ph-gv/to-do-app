@@ -1,5 +1,6 @@
 # To-Do App
  **PT-BR**
+
 🔍 **Descrição**
  - App Desktop de Tarefas construído com Python e Tkinter. 
 
@@ -16,6 +17,7 @@
  - Tkinter
 
 🏗️ **Estrutura do Código**
+
  Importação de Bibliotecas:
  - Utiliza módulos do Tkinter (tk, ttk, font, messagebox, PhotoImage) para construir a interface.
 
@@ -35,6 +37,7 @@
  - Carregamento de ícones para os botões de editar e deletar.
 
  **EN-US**
+
 🔍 **Description**
  - Desktop Tasks App built with Python and Tkinter.
 
@@ -51,6 +54,7 @@
  - Tkinter
 
 🏗️ **Code Structure**
+
   Library import:
  - Uses Tkinter modules (tk, ttk, font, messagebox, PhotoImage) to build the interface.
 
