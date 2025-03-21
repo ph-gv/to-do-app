@@ -2,15 +2,19 @@
  **PT-BR**
 🔍 **Descrição**
  - App Desktop de Tarefas construído com Python e Tkinter. 
+
 ✨ **Funcionalidades**
  - Criar Tarefas    
  - Editar Tarefas  
  - Excluir Tarefas 
  - Marcar Tarefas Concluídas
+
 🛠️ **Tecnologias Utilizadas**
  - Python 3.12.8
+
 📚 **Bibliotecas**
  - Tkinter
+
 🏗️ **Estrutura do Código**
  Importação de Bibliotecas:
  - Utiliza módulos do Tkinter (tk, ttk, font, messagebox, PhotoImage) para construir a interface.
@@ -33,15 +37,19 @@
  **EN-US**
 🔍 **Description**
  - Desktop Tasks App built with Python and Tkinter.
+
 ✨ **Features**
  - Create Tasks 
  - Edit Tasks
  - Delete Tasks
  - Toggle Task Completion
+
 🛠️ **Technology**
  - Python 3.12.8
+
 📚 **Library**
  - Tkinter
+
 🏗️ **Code Structure**
   Library import:
  - Uses Tkinter modules (tk, ttk, font, messagebox, PhotoImage) to build the interface.
