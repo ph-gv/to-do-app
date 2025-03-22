@@ -4,7 +4,7 @@ from tkinter import ttk, font, messagebox
 from tkinter import PhotoImage
 
 # FUNÇÕES
-def adicionar_tarefa():
+def adicionar_tarefa() -> None:
     """
     -->Trata a entrada e atualização de tarefas.
     """
@@ -21,7 +21,7 @@ def adicionar_tarefa():
         messagebox.showwarning('Entrada Inválida', 'Por Favor, insira uma tarefa.')
 
 
-def adicionar_item_tarefa(tarefa):
+def adicionar_item_tarefa(tarefa) -> None:
     """
     -->Cria os widgets para cada tarefa.
     """
@@ -44,7 +44,7 @@ def adicionar_item_tarefa(tarefa):
     canvas.config(scrollregion=canvas.bbox('all'))
 
 
-def preparar_edicao(frame_tarefa, label_tarefa):
+def preparar_edicao(frame_tarefa, label_tarefa) -> None:
     """
     -->Prepara interface para edição de tarefas.
     """
@@ -54,7 +54,7 @@ def preparar_edicao(frame_tarefa, label_tarefa):
     entrada_tarefa.insert(0, label_tarefa.cget('text'))
 
 
-def atualizar_tarefa(nova_tarefa):
+def atualizar_tarefa(nova_tarefa) -> None:
     """
     -->Atualiza itens editados.
     """
@@ -64,7 +64,7 @@ def atualizar_tarefa(nova_tarefa):
             widget.config(text=nova_tarefa)
 
 
-def deletar_tarefa(frame_tarefa):
+def deletar_tarefa(frame_tarefa) -> None:
     """
     -->Deleta Tarefas.
     """
@@ -73,7 +73,7 @@ def deletar_tarefa(frame_tarefa):
     canvas.config(scrollregion=canvas.bbox('all'))
 
 
-def alternar_sublinhado(label):
+def alternar_sublinhado(label) -> None:
     """
     -->Alterna entre sublinhar ou não uma tarefa.
     """
